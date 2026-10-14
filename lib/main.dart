@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-    backgroundColor: Colors.teal,  
+    backgroundColor: const Color.fromARGB(255, 85, 4, 78)  
     body: SafeArea(
       child: Center(
         child: Column(
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           Text(
             'FLUTTER DEVELOPER',
             style: TextStyle(
-              color: Colors.teal[100],
+              color: const Color.fromARGB(255, 88, 7, 88),
               fontSize: 16,
               letterSpacing: 2.5,
             ),
